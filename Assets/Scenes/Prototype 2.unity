@@ -293,7 +293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontalInput: 10
   speed: 40
-  xRange: 15
+  xRange: 20
   projectilePrefab: {fileID: 1597796863264799986, guid: 8234756c075914c488c10a456ab2419e, type: 3}
 --- !u!1 &475985833
 GameObject:
