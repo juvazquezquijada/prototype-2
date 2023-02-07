@@ -656,12 +656,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
-  - {fileID: 8611579110734378151, guid: 1aac4a0f4fa6b4019926a8119e96b6ce, type: 3}
-  - {fileID: 7053026678901221214, guid: cd54d11c8571740c2be478505b2114f5, type: 3}
   - {fileID: 4512949221347632831, guid: a0c9d12e4497848d68fd3f0e794839c1, type: 3}
+  - {fileID: 7053026678901221214, guid: cd54d11c8571740c2be478505b2114f5, type: 3}
+  - {fileID: 8611579110734378151, guid: 1aac4a0f4fa6b4019926a8119e96b6ce, type: 3}
   - {fileID: 4233316834891195044, guid: df91f9c95c8594042aa9babbda819d64, type: 3}
   - {fileID: 3192775901017476080, guid: 8fd1c73f6d7e341c4a11a5dc7c78f8bf, type: 3}
-  animalIndex: 2
 --- !u!4 &1222989877
 Transform:
   m_ObjectHideFlags: 0
