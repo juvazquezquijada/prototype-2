@@ -2337,6 +2337,8 @@ GameObject:
   - component: {fileID: 3192775901008080546}
   - component: {fileID: 1727772350526029871}
   - component: {fileID: -5469003733303058011}
+  - component: {fileID: 1184610822772359722}
+  - component: {fileID: -100223457838855456}
   m_Layer: 0
   m_Name: GermanShepard
   m_TagString: Untagged
@@ -2428,7 +2430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc2f94f6809ba46168ae7f1598e4cd19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 15
 --- !u!114 &-5469003733303058011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2439,6 +2441,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37a28658af1bd46aab2164e0f2672836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1184610822772359722
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3192775901017476080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.090185836, y: 0.179297, z: 0.24609342}
+  m_Center: {x: -0.011050785, y: 0.10921868, z: 0.018560862}
+--- !u!114 &-100223457838855456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3192775901017476080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39e2a456c38919c49a22a061b256d376, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3192775901017476200
